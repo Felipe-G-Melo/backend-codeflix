@@ -1,5 +1,5 @@
 ﻿using FC.CodeFlix.Catalog.Application.Interfaces;
-using FC.CodeFlix.Catalog.Application.UseCases.Category.Commun;
+using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
 using FC.CodeFlix.Catalog.Domain.Repository;
 
 namespace FC.CodeFlix.Catalog.Application.UseCases.Category.UpdateCategory;
@@ -27,8 +27,8 @@ public class UpdateCategory : IUpdateCategory
             request.Name, 
             request.Description
             );
-        if(request.IsActive != category.IsActive)
-            if(request.IsActive)
+        if(request.IsActive != null && request.IsActive != category.IsActive)
+            if((bool)request.IsActive!)
                 category.Activate();
             else
                 category.Deactivate();

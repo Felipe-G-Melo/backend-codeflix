@@ -5,7 +5,7 @@ using Xunit;
 using FC.CodeFlix.Catalog.Application.Exceptions;
 using FluentAssertions;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Application.DeleteCategory;
+namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.DeleteCategory;
 [Collection(nameof(DeleteCategoryTestFixture))]
 public class DeleteCategoryTest
 {
@@ -31,9 +31,9 @@ public class DeleteCategoryTest
             repositoryMock.Object,
             unitOfWorkMock.Object
             );
-        
+
         await useCase.Handle(input, CancellationToken.None);
-        
+
         repositoryMock.Verify(x => x.Get(
                        category.Id, It.IsAny<CancellationToken>()
                        ), Times.Once);

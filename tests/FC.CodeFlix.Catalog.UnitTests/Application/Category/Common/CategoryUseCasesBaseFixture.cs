@@ -1,18 +1,12 @@
 ﻿using FC.CodeFlix.Catalog.Application.Interfaces;
-using FC.CodeFlix.Catalog.Domain.Entity;
 using FC.CodeFlix.Catalog.Domain.Repository;
-using FC.CodeFlix.Catalog.UnitTests.Commun;
+using FC.CodeFlix.Catalog.UnitTests.Common;
 using Moq;
-using Xunit;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Application.DeleteCategory;
-public class DeleteCategoryTestFixture : BaseFixture
+namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.Common;
+public abstract class CategoryUseCasesBaseFixture : BaseFixture
 {
-    public DeleteCategoryTestFixture() 
-        : base()
-    {}
-
-    public string GetValidName()
+    public string GetValidCategoryName()
     {
         var categoryName = "";
         while (categoryName.Length < 3)
@@ -25,7 +19,7 @@ public class DeleteCategoryTestFixture : BaseFixture
         return categoryName;
     }
 
-    public string GetValidDescription()
+    public string GetValidCategoryDescription()
     {
         var categoryDescription = Faker.Lorem.Paragraph();
         if (categoryDescription.Length > 10000)
@@ -34,8 +28,8 @@ public class DeleteCategoryTestFixture : BaseFixture
         return categoryDescription;
     }
 
-    public Category GetValidCategory
-        () => new(GetValidName(), GetValidDescription());
+    public bool GetValidCategoryIsActive
+        () => Faker.Random.Bool();
 
     public Mock<ICategoryRepository> GetRepositoryMock
         () => new();
@@ -43,11 +37,3 @@ public class DeleteCategoryTestFixture : BaseFixture
     public Mock<IUnitOfWork> GetUnitOfWorkMock
         () => new();
 }
-
-
-[CollectionDefinition(nameof(DeleteCategoryTestFixture))]
-public class DeleteCategoryTestFixtureCollection 
-    : ICollectionFixture<DeleteCategoryTestFixture>
-{
-}
-

@@ -1,6 +1,6 @@
 ﻿using DomainCategory = FC.CodeFlix.Catalog.Domain.Entity;
 
-namespace FC.CodeFlix.Catalog.Application.UseCases.Category.Commun;
+namespace FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
 public class CategoryModelOutput
 {
     public Guid Id { get; set; }

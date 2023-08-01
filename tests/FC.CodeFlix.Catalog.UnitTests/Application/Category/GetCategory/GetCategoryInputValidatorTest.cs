@@ -2,7 +2,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Application.GetCategory;
+namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.GetCategory;
 
 [Collection(nameof(GetCategoryTestFixture))]
 public class GetCategoryInputValidatorTest

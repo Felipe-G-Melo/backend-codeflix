@@ -1,6 +1,6 @@
 ﻿using Bogus;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Commun;
+namespace FC.CodeFlix.Catalog.UnitTests.Common;
 public abstract class BaseFixture
 {
     public Faker Faker { get; set; }

@@ -1,7 +1,7 @@
 ﻿using FC.CodeFlix.Catalog.Application.Interfaces;
 using DomainEntity = FC.CodeFlix.Catalog.Domain.Entity;
 using FC.CodeFlix.Catalog.Domain.Repository;
-using FC.CodeFlix.Catalog.Application.UseCases.Category.Commun;
+using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
 
 namespace FC.CodeFlix.Catalog.Application.UseCases.Category.CreateCategory;
 public class CreateCategory : ICreateCategory

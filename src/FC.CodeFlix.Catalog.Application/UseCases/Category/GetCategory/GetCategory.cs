@@ -1,4 +1,4 @@
-﻿using FC.CodeFlix.Catalog.Application.UseCases.Category.Commun;
+﻿using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
 using FC.CodeFlix.Catalog.Domain.Repository;
 
 namespace FC.CodeFlix.Catalog.Application.UseCases.Category.GetCategory;

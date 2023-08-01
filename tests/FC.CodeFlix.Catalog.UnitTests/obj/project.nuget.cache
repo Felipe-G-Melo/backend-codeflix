@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vZ07wZlDilrF8/Kg5HUU0mA3C07LZnGnJyW2l9x2mv15dQPVmO1TqX+JBmoi+20jrwUGwpdssnYnctCk4VuDAw==",
+  "dgSpecHash": "ZbF8u76TX3m4pMoARL8Gx4DrdQ5O9ojfXePMxVot8kL+XCT//UIA9qS/F/ABvjdopijPEdz7oWajh7peJJt4DA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
+  "projectFilePath": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

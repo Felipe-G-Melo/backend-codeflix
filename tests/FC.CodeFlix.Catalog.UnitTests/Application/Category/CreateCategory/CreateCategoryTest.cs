@@ -1,12 +1,12 @@
 ﻿using UseCases = FC.CodeFlix.Catalog.Application.UseCases.Category.CreateCategory;
-using FC.CodeFlix.Catalog.Domain.Entity;
+using DomainEntity = FC.CodeFlix.Catalog.Domain.Entity;
 using Moq;
 using Xunit;
 using FluentAssertions;
 using FC.CodeFlix.Catalog.Application.UseCases.Category.CreateCategory;
 using FC.CodeFlix.Catalog.Domain.Exceptions;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Application.CreateCategory;
+namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.CreateCategory;
 [Collection(nameof(CreateCategoryTestFixture))]
 public class CreateCategoryTest
 {
@@ -32,7 +32,7 @@ public class CreateCategoryTest
 
         repositoryMock.Verify(
             repository => repository.Insert(
-                It.IsAny<Category>(),
+                It.IsAny<DomainEntity.Category>(),
                 It.IsAny<CancellationToken>()
                 ),
             Times.Once
@@ -48,7 +48,7 @@ public class CreateCategoryTest
         output.Description.Should().Be(input.Description);
         output.IsActive.Should().Be(input.IsActive);
         output.Id.Should().NotBeEmpty();
-        output.CreatedAt.Should().NotBeSameDateAs(default(DateTime));
+        output.CreatedAt.Should().NotBeSameDateAs(default);
     }
 
     [Fact(DisplayName = nameof(CreateCategoryWithOnlyName))]
@@ -67,7 +67,7 @@ public class CreateCategoryTest
 
         repositoryMock.Verify(
             repository => repository.Insert(
-                It.IsAny<Category>(),
+                It.IsAny<DomainEntity.Category>(),
                 It.IsAny<CancellationToken>()
                 ),
             Times.Once
@@ -83,7 +83,7 @@ public class CreateCategoryTest
         output.Description.Should().Be("");
         output.IsActive.Should().BeTrue();
         output.Id.Should().NotBeEmpty();
-        output.CreatedAt.Should().NotBeSameDateAs(default(DateTime));
+        output.CreatedAt.Should().NotBeSameDateAs(default);
     }
 
     [Fact(DisplayName = nameof(CreateCategoryWithOnlyNameAndDescripation))]
@@ -102,7 +102,7 @@ public class CreateCategoryTest
 
         repositoryMock.Verify(
             repository => repository.Insert(
-                It.IsAny<Category>(),
+                It.IsAny<DomainEntity.Category>(),
                 It.IsAny<CancellationToken>()
                 ),
             Times.Once
@@ -118,7 +118,7 @@ public class CreateCategoryTest
         output.Description.Should().Be(input.Description);
         output.IsActive.Should().BeTrue();
         output.Id.Should().NotBeEmpty();
-        output.CreatedAt.Should().NotBeSameDateAs(default(DateTime));
+        output.CreatedAt.Should().NotBeSameDateAs(default);
     }
 
     [Theory(DisplayName = nameof(ThrowWhenCanInstantiateAggregate))]
@@ -130,7 +130,7 @@ public class CreateCategoryTest
             _fixture.GetRepositoryMock().Object,
             _fixture.GetUnitOfWorkMock().Object
             );
-        
+
         Func<Task> task = async () => await useCase.Handle(input, CancellationToken.None);
         await task.Should()
             .ThrowAsync<EntityValidationException>()
@@ -146,7 +146,7 @@ public class CreateCategoryTest
         invalidShortName.Name = invalidShortName.Name.Substring(0, 2);
         invalidInputList.Add(
             new object[] {
-                invalidShortName, "Name must be at least 3 characters" 
+                invalidShortName, "Name must be at least 3 characters"
             });
 
         var invalidLongName = fixture.GetInput();

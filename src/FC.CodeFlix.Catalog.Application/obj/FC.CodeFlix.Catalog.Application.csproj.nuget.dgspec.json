@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {}
+    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {}
   },
   "projects": {
-    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
         "projectName": "FC.CodeFlix.Catalog.Application",
-        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\obj\\",
+        "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
-                "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+              "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+                "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "projectName": "FC.CodeFlix.Catalog.Domain",
-        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\obj\\",
+        "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

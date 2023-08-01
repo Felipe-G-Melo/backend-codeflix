@@ -4,7 +4,7 @@ using Xunit;
 using FluentAssertions;
 using FC.CodeFlix.Catalog.Application.Exceptions;
 
-namespace FC.CodeFlix.Catalog.UnitTests.Application.GetCategory;
+namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.GetCategory;
 
 [Collection(nameof(GetCategoryTestFixture))]
 public class GetCategoryTest
@@ -28,13 +28,13 @@ public class GetCategoryTest
         )).ReturnsAsync(exempleCategory);
         var input = new UseCases.GetCategoryInput(exempleCategory.Id);
         var useCase = new UseCases.GetCategory(repositoryMock.Object);
-        
+
         var output = await useCase.Handle(input, CancellationToken.None);
 
         repositoryMock.Verify(repository => repository.Get(
             It.IsAny<Guid>(),
             It.IsAny<CancellationToken>()
-            ),Times.Once);
+            ), Times.Once);
         output.Should().NotBeNull();
         output.Name.Should().Be(exempleCategory.Name);
         output.Description.Should().Be(exempleCategory.Description);
