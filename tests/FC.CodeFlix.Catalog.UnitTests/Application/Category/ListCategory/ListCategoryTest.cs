@@ -61,7 +61,7 @@ public class ListCategoryTest
         {
             var exempleCategory = categoryList.FirstOrDefault(x => x.Id == item.Id);
             item.Should().NotBeNull();
-            item.Name.Should().Be(exempleCategory.Name);
+            item.Name.Should().Be(exempleCategory!.Name);
             item.Description.Should().Be(exempleCategory.Description);
             item.IsActive.Should().Be(exempleCategory.IsActive);
             item.CreatedAt.Should().Be(exempleCategory.CreatedAt);
@@ -164,7 +164,7 @@ public class ListCategoryTest
         {
             var exempleCategory = categoryList.FirstOrDefault(x => x.Id == item.Id);
             item.Should().NotBeNull();
-            item.Name.Should().Be(exempleCategory.Name);
+            item.Name.Should().Be(exempleCategory!.Name);
             item.Description.Should().Be(exempleCategory.Description);
             item.IsActive.Should().Be(exempleCategory.IsActive);
             item.CreatedAt.Should().Be(exempleCategory.CreatedAt);

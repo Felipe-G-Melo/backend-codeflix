@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {}
+    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {}
   },
   "projects": {
-    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "projectName": "FC.CodeFlix.Catalog.Domain",
-        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\obj\\",
         "projectStyle": "PackageReference",

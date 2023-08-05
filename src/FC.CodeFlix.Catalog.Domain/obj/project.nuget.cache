@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxfKHyoerbLULDvv7F9B1RJ99uFxKSbMePJOsoJl8hqA2MrzRhVa3rT6NsM6JTFOkXZrRLDcv+hrsDE+STfFpA==",
+  "dgSpecHash": "OShhviEiqFD4bJGygmku7YKh9B0dSqSuMH0Y2ahewtWMmLW5L52BpE7tIbD9UwVzkhqgFQ8MeFmtkFGqbhAvuw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+  "projectFilePath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
