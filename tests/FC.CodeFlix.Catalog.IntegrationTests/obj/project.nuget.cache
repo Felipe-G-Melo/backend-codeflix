@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IrK6GueC4qhzzOZK61aQ4GsRWH3dBK9tD3p9cH1fR/qI55TpGUmHgyYolCUhMzJoESVLbMnAP6+v6PIZyc53FA==",
+  "dgSpecHash": "bRkM0naCV3e0HF9F/mBMex6j1Cov2F/qbsHPlY2XztPpRvALTBL/CfQ+H6c5PcQ90TbIqItd9hTTia7O5yIC3A==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
+  "projectFilePath": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

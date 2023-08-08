@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj": {}
+    "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
         "projectName": "FC.CodeFlix.Catalog.Application",
-        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
-                "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+              "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+                "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
               }
             }
           }
@@ -77,12 +77,12 @@
         }
       }
     },
-    "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+    "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "projectName": "FC.CodeFlix.Catalog.Domain",
-        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -136,12 +136,12 @@
         }
       }
     },
-    "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj": {
+    "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
+        "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
         "projectName": "FC.CodeFlix.Catalog.UnitTests",
-        "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
+        "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
         "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
@@ -164,11 +164,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
-                "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj"
+              "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+                "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj"
               },
-              "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
-                "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+              "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+                "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
               }
             }
           }

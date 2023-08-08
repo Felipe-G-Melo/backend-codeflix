@@ -42,6 +42,7 @@ public class GetCategoryTest
         output.Id.Should().Be(exempleCategory.Id);
         output.CreatedAt.Should().Be(exempleCategory.CreatedAt);
     }
+
     [Fact(DisplayName = nameof(NotFoundExceptionWhenCategoryDoesntExist))]
     [Trait("Application", "GetCategory - UseCases")]
     public async Task NotFoundExceptionWhenCategoryDoesntExist()

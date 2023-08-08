@@ -6403,9 +6403,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
       "projectName": "FC.CodeFlix.Catalog.IntegrationTests",
-      "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
+      "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\FC.CodeFlix.Catalog.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Felipe Melo\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\FC.Codeflix.Catalog\\tests\\FC.CodeFlix.Catalog.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -6428,11 +6428,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
-              "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+            "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+              "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
             },
-            "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj": {
-              "projectPath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj"
+            "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj": {
+              "projectPath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj"
             }
           }
         }

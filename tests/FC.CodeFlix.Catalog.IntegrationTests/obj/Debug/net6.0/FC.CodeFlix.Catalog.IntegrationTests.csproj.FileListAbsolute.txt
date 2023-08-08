@@ -123,3 +123,4 @@ C:\dev\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\
 C:\dev\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\net6.0\FC.CodeFlix.Catalog.IntegrationTests.pdb
 C:\dev\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\net6.0\FC.CodeFlix.Catalog.IntegrationTests.genruntimeconfig.cache
 C:\dev\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\net6.0\ref\FC.CodeFlix.Catalog.IntegrationTests.dll
+C:\dev\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\bin\Debug\net6.0\xunit.runner.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MkQQh0B79otYngtpYliooTy/6BZpGnUJxjzI+B9Dy2aK7J4FxeWTHbMqGDMxVj0dKGhdwsyRqc8ea7dte6urqQ==",
+  "dgSpecHash": "TNqat3in0hI3augFX7ppGvE/okaZzQ8QiEEJru3xCR7TUYEZYSiJvovugXmfRrun6IQLmlasn1znC1OBeNTA+Q==",
   "success": true,
-  "projectFilePath": "C:\\dev\\FC.Codeflix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+  "projectFilePath": "C:\\dev\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\Felipe Melo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
